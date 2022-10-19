@@ -49,7 +49,7 @@
         >登录</el-button
       >
     </el-form>
-
+    <h2 style="text-align: center;color: #1e6abc">用户名:18924173266   密码:123456</h2>
     <div class="copyright">
       Copyright 2022 燕台山 版权所有 <a href="#">粤ICP备xxx号</a>
     </div>

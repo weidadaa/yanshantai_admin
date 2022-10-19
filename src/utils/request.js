@@ -7,10 +7,11 @@ axios.defaults.withCredentials = true
 
 // create an axios instance
 const service = axios.create({
-  baseURL: process.env.VUE_APP_BASE_API, // api 的 base_url
+  // baseURL: process.env.VUE_APP_BASE_API, // api 的 base_url
   // baseURL: "/admin",
   // baseURL: "http://10.1.2.179:10111/admin",  // 后端
   // baseURL: "http://127.0.0.1:11110/yantaishan",  // 后端
+  baseURL: "http://localhost:11110/yantaishan",  // 后端
   // baseURL: "http:///10.1.2.244:10111/yantaishan", // 上线
   // baseURL: "http://api.yantaisan.com/yantaishan", // 上线
   timeout: 5000 // request timeout
